@@ -12,8 +12,8 @@ const CategoryItem = ({category}) => {
             }}
           ></div>
           <div className='category-body-container'>
-            <h2>{title.toLocaleUpperCase()}</h2>
-            <p>{'Shop now'.toLocaleUpperCase()}</p>
+            <h2>{title}</h2>
+            <p>{'Shop now'}</p>
           </div>
         </div>
     );
